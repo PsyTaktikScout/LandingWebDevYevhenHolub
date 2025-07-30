@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yevhen Holub | Front-end developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img id="foto-1-l" src="img/1_foto_l.jpeg" alt="Photo">
+    <h1>Yevhen Holub</h1>
+    <div class="navbars">
+    <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger" aria-label="Navigation">☰</label>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar-lang">
+        <input type="checkbox" id="menu-toggle-lang" class="menu-toggle-lang">
+        <label for="menu-toggle-lang" class="hamburger-lang" aria-label="Language">🌐</label>
+        <ul class="menu-lang">
+            <li><a href="main.html">EN</a></li>
+            <li><a href="es.html">ES</a></li>
+            <li><a href="ua.html">UA</a></li>
+            <li><a href="ru.html">RU</a></li>
+        </ul>
+    </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Websites That Work and Inspire</h2>
+    <p>Clean, semantic markup, unique style, reliability, and success for your business.</p>
+    <a href="#contact" class="cta">Order Markup</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm an aspiring web developer specializing in HTML and CSS. My goal is to create websites that meet your needs: from clear structure to creative design. I guarantee accuracy, responsiveness, and a readiness to bring your ideas to life.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>My Projects</h2>
+    <div class="portfolio-grid">
+      <div class="project">
+        <img src="img/portfolio-1.png" alt="Project 1">
+        <p>Landing Page: Responsive, fast, and user-friendly.</p>
+      </div>
+      <div class="project">
+        <img src="img/portfolio-2.png" alt="Project 2">
+        <p>Portfolio Website: Unique style that highlights your brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="services-grid">
+      <div class="service">
+        <h3>Landing Page Development</h3>
+        <p>Clean code, pixel-perfect design, responsiveness for all devices.</p>
+      </div>
+      <div class="service">
+        <h3>Google Sheets Integration</h3>
+        <p>Embedding Google Forms into your website's forms and sending data from your site to Google Sheets.</p>
+      </div>
+      <div class="service">
+        <h3>Telegram Integration</h3>
+        <p>Setting up Telegram notifications when Google Forms are submitted from your website.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Ready to discuss your project and create a website that inspires you!</p>
+    <form id="google-form" method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcDhotr7ACQ48B3Vze01Yi67uJXXjwvpqNPmDm5ZFyctyWSg/formResponse" target="_blank">
+      <input type="text" name="entry.144411749" placeholder="Your Name">
+      <input type="email" name="entry.723449237" placeholder="Your Email">
+      <textarea name="entry.839926022" placeholder="Describe your project"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Yevhen Holub. Creating websites with soul and for your success.</p>
+  </footer>
+</body>
+</html>

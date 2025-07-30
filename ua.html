@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Євген Голуб | Вебверстальник</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img id="foto-1-l" src="img/1_foto_l.jpeg" alt="Фото">
+    <h1>Євген Голуб</h1>
+    <div class="navbars">
+    <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger" aria-label="Меню">☰</label>
+        <ul class="menu">
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#portfolio">Портфоліо</a></li>
+            <li><a href="#services">Послуги</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar-lang">
+        <input type="checkbox" id="menu-toggle-lang" class="menu-toggle-lang">
+        <label for="menu-toggle-lang" class="hamburger-lang" aria-label="Мова">🌐</label>
+        <ul class="menu-lang">
+            <li><a href="main.html">EN</a></li>
+            <li><a href="es.html">ES</a></li>
+            <li><a href="ua.html">UA</a></li>
+            <li><a href="ru.html">RU</a></li>
+        </ul>
+    </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Сайти, що працюють та надихають</h2>
+    <p>Чиста верстка, унікальний стиль, надійність та успіх для вашого бізнесу.</p>
+    <a href="#contact" class="cta">Замовити верстку</a>
+  </section>
+
+  <section id="about">
+    <h2>Про мене</h2>
+    <p>Я вебверстальник-початківець, працюю з HTML та CSS. Моя мета — створювати сайти, які вирішують ваші завдання: від чіткої структури до креативного дизайну. Я гарантую акуратність, адаптивність та готовність втілити ваші ідеї в життя.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Мої проєкти</h2>
+    <div class="portfolio-grid">
+      <div class="project">
+        <img src="img/portfolio-1.png" alt="Проєкт 1">
+        <p>Лендінг: адаптивний, швидкий, зручний для клієнтів.</p>
+      </div>
+      <div class="project">
+        <img src="img/portfolio-2.png" alt="Проєкт 2">
+        <p>Сайт-портфоліо: унікальний стиль, що виділяє ваш бренд.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Мої послуги</h2>
+    <div class="services-grid">
+      <div class="service">
+        <h3>Верстка лендінгів</h3>
+        <p>Чистий код, pixel-perfect, адаптивність для всіх пристроїв.</p>
+      </div>
+      <div class="service">
+        <h3>Інтеграція з Google Таблицями</h3>
+        <p>Вбудовування Google Форм у форму вашого сайту. І надсилання даних з вашого сайту в Google Таблиці.</p>
+      </div>
+      <div class="service">
+        <h3>Інтеграція з Telegram</h3>
+        <p>Налаштування сповіщень у Telegram при надсиланні Google Форм з вашого сайту.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Зв'яжіться зі мною</h2>
+    <p>Готовий обговорити ваш проєкт та створити сайт, який вас надихне!</p>
+    <form id="google-form" method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcDhotr7ACQ48B3Vze01Yi67uJXXjwvpqNPmDm5ZFyctyWSg/formResponse" target="_blank">
+      <input type="text" name="entry.144411749" placeholder="Ваше ім'я">
+      <input type="email" name="entry.723449237" placeholder="Ваш email">
+      <textarea name="entry.839926022" placeholder="Опишіть ваш проєкт"></textarea>
+      <button type="submit">Надіслати</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Євген Голуб. Створюю сайти з душею та для вашого успіху.</p>
+  </footer>
+</body>
+</html>
